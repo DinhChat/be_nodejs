@@ -1,0 +1,6 @@
+về backend: thoông báo lỗi khi tạo user mới trùng email:
+sửa ở schema email: thêm vào thuộc tính unique với thông báo: email đã tồn tại 
+
+về frontend: chỉnh sửa index khi trang thay đổi : truyền page và limit vào hàm UserTable() và đặt truờng stt là
+ <td>{(page - 1) * limit + index + 1}</td>
+
